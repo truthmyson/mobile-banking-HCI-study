@@ -25,13 +25,19 @@ git clone <YOUR_REPO_URL_HERE>
 cd <YOUR_REPO_NAME>
 ```
 
-### Step 2: Create Your Personal Branch
-Before making any changes, you must create a new branch for yourself. The naming convention is **strictly** required: `Lastname_Firstname_Middlenames` (Use underscores, no spaces).
+### Step 2: Create a Task Branch
+Before making any changes, you must create a new branch for the specific task you are assigned or it would be created for you. The naming convention is strictly required: `task-[IssueNumber]-[short-description]` (Use hyphens, no spaces).
 
 ```bash
-# Example for a member named John Doe Mensah
-git checkout -b Doe_John_Mensah
+# Example: If you are assigned to Issue #1 (User Research)
+git checkout -b task-1-user-research
+
+# Example: If you are assigned to Issue #2 (Login Screen Evaluation)
+git checkout -b task-2-login-evaluation
 ```
+(Note: If you and another member are assigned to the same task, coordinate so that only one person creates the branch first. The others can then run git checkout task-1-user-research to pull it down and work on it together).
+
+---
 
 ### Step 3: Add Your Files and Commit
 Write your report (see the Report Requirements section below). Once your files are ready, add them to Git and commit with a clear message.
@@ -45,11 +51,11 @@ git commit -m "Add [Your Name]'s HCI usability analysis report"
 ```
 
 ### Step 4: Push to GitHub
-Push your newly created branch to the remote repository on GitHub.
+Push your newly created task branch to the remote repository on GitHub.
 
 ```bash
 # Example based on the branch name above
-git push origin Doe_John_Mensah
+git push origin task-1-user-research
 ```
 
 ### Step 5: Create a Pull Request (PR)

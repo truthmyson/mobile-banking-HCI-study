@@ -2,8 +2,7 @@
 
 **Member Details**
 *   **Full Name:** [Lastname, Firstname Middlenames]
-*   **Student ID:** [Your ID]
-*   **Git Branch:** [e.g., Doe_John_Mensah]
+*   **Git Branch:** [e.g., doe_john_mensah]
 *   **Date Submitted:** [DD/MM/YYYY]
 
 ---

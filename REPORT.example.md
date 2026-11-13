@@ -101,4 +101,4 @@
 
 ---
 
-## Submit only document files, no pdf.
+## Submit only document files, no pdf and name the file with your name.
